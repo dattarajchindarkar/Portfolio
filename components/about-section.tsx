@@ -52,50 +52,54 @@ export default function AboutSection() {
               Hi there! I&apos;m Dattaraj
             </h3>
             <p className="text-muted-foreground mb-6">
-              I&apos;m a passionate full-stack developer with expertise in
-              building modern web applications. With over 5 years of experience
-              in the industry, I&apos;ve worked on a variety of projects ranging
-              from small business websites to complex enterprise applications.
+              I am Dattaraj Ajay Chindarkar, a dedicated and passionate Computer Engineering 
+              student currently pursuing my degree at SSPM College, Kankavli. With a strong 
+              foundation in programming languages like Python, C, C++, Java, HTML, CSS, and 
+              JavaScript, I am eager to apply my technical knowledge to develop innovative solutions.
             </p>
             <p className="text-muted-foreground mb-6">
-              My technical toolkit includes React, Next.js, Node.js, and various
-              database technologies. I&apos;m particularly interested in
-              creating intuitive user experiences and scalable backend
-              solutions.
+              My academic journey has been enriched with practical experience, including an 
+              internship in Python at Softmusk Info Pvt Ltd, where I gained hands-on experience 
+              in software development. Additionally, I have worked on an Arduino-Based Robotic 
+              Arm project, showcasing my interest in embedded systems and automation.
             </p>
             <p className="text-muted-foreground mb-8">
-              When I&apos;m not coding, you can find me hiking in the mountains,
-              reading science fiction, or experimenting with new recipes in the
-              kitchen.
+              I am constantly expanding my skill set, currently pursuing courses in Arduino and 
+              Python's Django framework. My strengths lie in quick learning, teamwork, and 
+              critical thinking, which help me adapt and thrive in dynamic environments.
             </p>
 
             <div className="grid grid-cols-2 gap-4">
               <Card>
                 <CardContent className="p-4">
-                  <h4 className="font-bold text-primary mb-2">Frontend</h4>
+                  <h4 className="font-bold text-primary mb-2">Programming</h4>
                   <p className="text-sm">
-                    React, Next.js, TypeScript, Tailwind CSS
+                    Python, C, C++, Java, JavaScript, HTML, CSS
                   </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="p-4">
-                  <h4 className="font-bold text-primary mb-2">Backend</h4>
+                  <h4 className="font-bold text-primary mb-2">Technologies</h4>
                   <p className="text-sm">
-                    Node.js, Express, PostgreSQL, MongoDB
+                    Arduino, Django, Software Testing
                   </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="p-4">
-                  <h4 className="font-bold text-primary mb-2">Tools</h4>
-                  <p className="text-sm">Git, Docker, AWS, Vercel</p>
+                  <h4 className="font-bold text-primary mb-2">Strengths</h4>
+                  <p className="text-sm">
+                    Quick Learner, Teamwork, Critical Thinking
+                  </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="p-4">
-                  <h4 className="font-bold text-primary mb-2">Design</h4>
-                  <p className="text-sm">Figma, Adobe XD, UI/UX principles</p>
+                  <h4 className="font-bold text-primary mb-2">Projects</h4>
+                  <p className="text-sm">
+                    Arduino-Based Robotic Arm
+                  </p>
                 </CardContent>
               </Card>
             </div>
