@@ -3,6 +3,7 @@
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
+import Image from "next/image"; // Import Next.js Image component
 
 export default function AboutSection() {
   const [ref, inView] = useInView({
@@ -33,9 +34,11 @@ export default function AboutSection() {
             className="relative px-10"
           >
             <div className="aspect-square rounded-lg overflow-hidden border-4 border-background shadow-xl">
-              <img
+              <Image
                 src="/pic.jpg"
                 alt="Dattaraj's professional photo"
+                width={400} // Adjust width
+                height={400} // Adjust height
                 className="w-full h-full object-center"
               />
             </div>
@@ -65,7 +68,7 @@ export default function AboutSection() {
             </p>
             <p className="text-muted-foreground mb-8">
               I am constantly expanding my skill set, currently pursuing courses in Arduino and 
-              Python's Django framework. My strengths lie in quick learning, teamwork, and 
+              Python&apos;s Django framework. My strengths lie in quick learning, teamwork, and 
               critical thinking, which help me adapt and thrive in dynamic environments.
             </p>
 
